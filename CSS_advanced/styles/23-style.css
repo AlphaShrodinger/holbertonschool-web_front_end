@@ -196,7 +196,7 @@ ul.row {
 }
 
 .social-link svg {
-    display: inline-block;
+    display: block;
 }
 
 .social-link svg path {
