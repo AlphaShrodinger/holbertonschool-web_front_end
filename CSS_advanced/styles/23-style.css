@@ -200,7 +200,8 @@ ul.row {
 }
 
 .social-link svg {
-    color: var(--text-color);
+    width: 24px;
+    height: 24px;
 }
 
 .social-link svg path,
