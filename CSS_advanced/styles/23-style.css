@@ -195,12 +195,12 @@ ul.row {
     color: var(--text-color);
 }
 
-.social-link {
-    display: block;
+.social-link svg {
+    display: inline-block;
 }
 
-.social-link svg {
-    color: var(--text-color);
+.social-link svg path {
+    fill: var(--text-color);
 }
 
 :root {
