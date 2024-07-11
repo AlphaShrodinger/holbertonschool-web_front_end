@@ -203,10 +203,7 @@ ul.row {
     display: block;
 }
 
-.social-link svg path,
-.social-link svg circle,
-.social-link svg polygon,
-.social-link svg rect {
+.social-link svg * {
     fill: var(--text-color);
 }
 
