@@ -178,10 +178,10 @@ ul.row {
     text-align: right;
 }
 
-.row {
+.row::after {
     display: table;
     clear: both;
-    content: none;
+    content: '';
 }
 
 :root {
