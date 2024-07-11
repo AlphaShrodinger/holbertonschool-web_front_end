@@ -128,6 +128,7 @@ h6 {
     margin: 0;
     padding: 0;
     text-align: center;
+    list-style: none;
 }
 
 .nav-item {
@@ -141,22 +142,11 @@ h6 {
 
 .nav-link {
     display: block;
-    padding: var(--nav-link-padding-vertical) var(--nav-link-padding-horizontal);
-    color: var(--text-color);
-    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
     color: var(--nav-item-link-hover);
-}
-
-.nav li {
-    list-style: none;
-}
-
-.nav li a {
-    text-decoration: none;
-    color: inherit;
 }
 
 :root {
@@ -193,6 +183,6 @@ h6 {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * var(--root-font-size)) 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 }
