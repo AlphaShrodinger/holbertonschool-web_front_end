@@ -181,7 +181,7 @@ ul.row {
 .row {
     display: table;
     clear: both;
-    content: "";
+    content: none;
 }
 
 :root {
