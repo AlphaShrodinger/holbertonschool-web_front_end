@@ -200,10 +200,7 @@ ul.row {
 }
 
 .social-link svg {
-    fill: var(--text-color);
-}
-
-.social-link svg * {
+    color: var(--text-color);
     fill: var(--text-color);
 }
 
