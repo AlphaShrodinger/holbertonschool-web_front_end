@@ -200,14 +200,6 @@ ul.row {
 }
 
 .social-link svg {
-    width: 24px;
-    height: 24px;
-}
-
-.social-link svg path,
-.social-link svg polygon,
-.social-link svg rect,
-.social-link svg circle {
     fill: var(--text-color);
 }
 
