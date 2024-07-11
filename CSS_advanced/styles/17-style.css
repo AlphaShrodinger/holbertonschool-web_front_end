@@ -80,6 +80,10 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
+.footer {
+    padding: var(--footer-padding);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -116,10 +120,6 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -146,7 +146,7 @@ h6 {
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
-    --section-footer-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
 }
