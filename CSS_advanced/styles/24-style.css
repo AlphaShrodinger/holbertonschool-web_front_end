@@ -203,7 +203,7 @@ ul.row {
     fill: var(--text-color);
 }
 
-.card-services .cart-title {
+.card-services .card-title {
     margin: none;
 }
 
