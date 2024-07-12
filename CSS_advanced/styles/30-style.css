@@ -316,7 +316,7 @@ ul.row {
 }
 
 .card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 0, 7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
@@ -330,10 +330,10 @@ ul.row {
 .card-work .card-title a {
     display: block;
     text-decoration: none;
-    padding: 45%;
+    padding-top: 45%;
 }
 
-.card-work .card-title ::after {
+.card-work .card-title a::after {
     content: '';
     position: absolute;
     top: 0;
