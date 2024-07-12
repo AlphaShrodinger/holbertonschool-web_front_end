@@ -251,17 +251,17 @@ ul.row {
     color: var(--color-primary);
 }
 
-.selection-hero {
+.section-hero {
     background-size: 90rem auto;
     width: 90rem;
     height: auto;
 }
 
-.selection-hero .section-title {
+.section-hero .section-title {
     margin-bottom: 5rem;
 }
 
-.selection-hero .section-inner {
+.section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
 }
 
