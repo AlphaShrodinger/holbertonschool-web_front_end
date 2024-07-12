@@ -199,7 +199,7 @@ ul.row {
     display: block;
 }
 
-[class^="social-link svg"] {
+.social-link>svg {
     fill: var(--text-color);
 }
 
